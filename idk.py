@@ -1,9 +1,11 @@
 print("Hello there! Welcome to the world of Pokémon! My name is Oak! People call me the Pokémon Prof! This world is inhabited by creatures called Pokémon! For some people, Pokémon are pets. Other use them for fights. Myself… I study Pokémon as a profession. First, what is your name?")
 print(" ")
+print("Name?")
 player = input()
 print(" ")
 print("Right! So your name is" , player , "! This is my grandson. He's been your rival since you were a baby. …Erm, what is his name again?")
 print(" ")
+print("Rival Name?")
 rival = input()
 print("That's right! I remember now! His name is" , rival , "!" , player , "! Your very own Pokémon legend is about to unfold! A world of dreams and adventures with Pokémon awaits! Let's go!")
 print(" ")
@@ -39,10 +41,15 @@ print(" ")
 print("*You wake up in your bed*")
 print("go downstairs? Y/N?")
 choose = input()
-if choose == 'Y':
+
+if choose == 'Y' or 'Yes' or 'yes' or 'y':
+
     print("*you make your way to the livingroom*")
 else:
-    print("*You lay in bed*")
+
+    print("*You lay in bed for a while, do you choose to get up?*")
+if
+    print("you go downstairs to the livingroom")
 
 print("Go outside? Y/N?")
 
@@ -137,7 +144,7 @@ if choose == 'C':
     print("You got CHARMANDER")
 if choose == 'S':
     print("you got SQUIRTLE")
-if choose == 'B'
+if choose == 'B':
     print("you got BULBASAUR")
 
 print("press continue")
