@@ -42,7 +42,6 @@ print(" ")
 print(" ")
 print(enemy)
 print(" ")
-
 print("BATTLE START")
 input()
 
