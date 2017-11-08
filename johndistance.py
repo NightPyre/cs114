@@ -54,8 +54,7 @@ elif unit1 == 'meters' or unit1 == 'm' and unit2 == 'miles' or unit2 == 'mi':
 
 elif unit1 == 'meters' or unit1 == 'm' and unit2 == 'kilometers' or unit2 == 'km':
         dist=(num / 1000)
-else:
-    print("invalid unit")
+
 print(" ")
 print(" ")
 print(" ")
