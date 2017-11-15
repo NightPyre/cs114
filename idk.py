@@ -145,14 +145,20 @@ if choose == 'Y' or choose == 'Yes' or choose == 'yes' or choose == 'y':
             print("*you see three pokeballs on the table. charmander, squirtle, and bulbasaur*")
             print("which will you choose? (C/S/B)?")
             choose = input()
+            starter = 0
             if choose == 'C' or choose == 'CHARMANDER' or choose == 'c' or choose == 'charmander' or choose == 'Charmander':
                 print("You got CHARMANDER")
+                starter = (starter + 1)
             if choose == 'S' or choose == 'SQUIRTLE' or choose == 'Squirtle' or choose == 's' or choose == 'squirtle':
                 print("you got SQUIRTLE")
+                starter = (starter + 2)
             if choose == 'B' or choose == 'BULBASAUR' or choose == 'b' or choose == 'bulbasaur' or choose == 'Bulbasaur':
                 print("you got BULBASAUR")
+                starter = (starter + 3)
+
 
             print("press continue")
+            print(starter)
             cont = input()
             print(" ")
             print(" ")
@@ -175,6 +181,10 @@ if choose == 'Y' or choose == 'Yes' or choose == 'yes' or choose == 'y':
             print(" ")
             print(" ")
             print(" ")
+            print("*as you look at your new partner your rival grabs one of his own*")
+            print("*he approaches and blocks your path* let's battle!")
+
+            cont = input()
             print(" ")
             print(" ")
             print(" ")
@@ -185,3 +195,49 @@ if choose == 'Y' or choose == 'Yes' or choose == 'yes' or choose == 'y':
             print(" ")
             print(" ")
             print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print("BATTLE START")
+            if starter == 1:
+                print("ATTACKS: Scratch(1)       Growl(2)")
+            elif starter == 2:
+                print("ATTACKS: tackle(1)       tailwhip(2)")
+            elif starter == 3:
+                print("ATTACKS: tackle(1)       Growl(2)")
+            hp = 10
+
+            ohp = 10
+
+            while ohp > 0:
+
+                an = input()
+                if an == "1":
+                    ohp = ohp - 3
+                    print("you hit!")
+                    print(" ")
+                    print("Opponent health" , ohp)
+                    for whatever in range(1):
+                        print("damage")
+                        print(" ")
+                         #print out health
+
+
+
+
+
+                    pass
+
+                if an == "2":
+                    ohp = ohp
+                    print("their defense lowers!")
+                    print(" ")
+                    print("Opponent health" , ohp)
