@@ -3,35 +3,6 @@ num = int(input())
 tens = num // 10
 ones = num % 10
 
-#if num == 10:
-#    return 'ten'
-
-#elif num == 11:
-#    return 'eleven'
-
-#elif num == 12:
-#    return 'twelve'
-
-#elif num == 13:
-#    return 'thirteen'
-
-#elif num == 14:
-    #return 'fourteen'
-
-#elif num == 15:
-    #return 'fifteen'
-
-#elif num == 16:
-    #return 'sixteen'
-
-#elif num == 17:
-    #return 'seventeen'
-
-#elif num == 18:
-    #return 'eighteen'
-
-#elif num == 19:
-    #return 'nineteen'
 
 def getAnswer(answerNumber):
     if tens == 1:
@@ -106,12 +77,9 @@ elif tens == 1:
         output = 'ten'
     else:
         output = one + 'teen'
+elif ones == 0:
+    output = ten
 else:
-    output = tens+ '-' + ones
+    output = ten + one
 
 print(output)
-#if num < 10:
-#    print(one)
-
-#else:
-#    print (ten + one)

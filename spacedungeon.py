@@ -1,21 +1,67 @@
-def main():
 import random
 
 print("===============Welcome to SPACE DUNGEON===================")
-
-print("Before we begin, let's go over your files.")
-print("What is your name?")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+input("////////////////////PRESS START////////////////////////////")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
 print(" ")
 
-Name = input()
+print("Before we begin, let's go over your files.")
+
+print(" ")
+
+Name = input("What is your name?")
 
 print(" ")
 print("So. you are" , Name , "?")
 print(" ")
-print("What class are you?")
 print(" ")
 
-Class = input()
+Class = input("What class are you?")
 
 print("Interesting....you chose" , Class , "....very well. That matches the reccords")
 print(" ")
@@ -54,6 +100,26 @@ print(" ")
 print(" ")
 print(" ")
 print("Press any button to continue..")
+
+
+
+
+def getenemy():
+
+    r = random.randint(0, 3)
+    spam = ["kobold","space pirate"," rogue commando","robo-soldier"]
+    fight = spam[r]
+    print ("Your attacker is", fight)
+
+print("You are ambushed in space!!!")
+
+choice = input()
+print(" ")
+print(" ")
+getenemy()
+
+
+
 
 Any = input()
 
