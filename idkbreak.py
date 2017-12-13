@@ -63,8 +63,8 @@ def intro():
     choose = input()
 
     if choose == 'N' or choose == 'No' or choose == 'no' or choose == 'n':
-        print("*You lay in bed for a while*")
-
+        #print("*You lay in bed for a while*")
+        no()
     if choose == 'Y' or choose == 'Yes' or choose == 'yes' or choose == 'y':
         print("*you make your way to the livingroom*")
         print(" ")
@@ -209,6 +209,10 @@ def fight(oppo1, oppo2):
             game_over_first(oppo1)
     print('charmander oppo1 HP: ', oppo1['HP'])
     print('squirtle oppo2 HP: ', oppo2['HP'])
+
+
+def no():
+    print("you chose to stay in bed for a while")
 
 def encounter(charmander, squirtle):
     if charmander['HP'] >= 20:
